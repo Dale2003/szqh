@@ -53,7 +53,7 @@ function onFileChange(fileObj,el,btnel){
         canvas.height = image.height
 //        ctx.drawImage(image, 0, 0);
         sdsz = new Image();
-        sdsz.src = "IMG_1404.PNG"
+        sdsz.src = "szqh2.png"
         ctx.drawImage(sdsz, 0, 0);
 
 
@@ -117,7 +117,7 @@ function compressImageTobase64(image,width,height,qua){
     theResult.src = data;
 
     }
-    sdsz.src = "IMG_1404.PNG"
+    sdsz.src = "szqh2.png"
 }
 
 function callback() {
